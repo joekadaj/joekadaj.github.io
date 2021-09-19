@@ -1,0 +1,95 @@
+body{
+  margin :0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: url("images/F5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: center;
+  
+} 
+
+#logo {
+  padding-top: 20px;
+  width: 10%; height: 10%;
+  margin: 10px;
+
+}
+header{
+  text-align: center;
+  background-color: indigo;
+  color: white;
+  padding-bottom: 20px;
+}
+#title{
+  display:inline;
+  font-size: 40px;
+
+}
+h1{
+  text-align: center;
+}
+
+#links li{
+  display: inline;
+  padding: 15px;
+  border-right: 2px solid white;
+}
+
+#links li:hover{
+  background-color: white;
+}
+#links a{
+  color: black;
+  text-decoration: note;
+  }
+
+nav{
+  background-color:lightskyblue;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+} 
+
+section{
+  padding:20px;
+  
+}
+table, th,td,caption{
+  border-collapse: collapse;
+  border: 2px solid black;
+  padding: 30px;
+}
+th{
+  background-color: rgb(151, 92, 206);
+  color: white;
+
+}
+caption{
+  font-size: 20px;
+  background-color: rgb(24, 83, 209);
+  color: white;
+
+}
+td{
+  text-align: center;
+}
+
+.facultyImg{
+  width: 100%;
+  height: 100%;
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}  
+img:hover{
+  transform:scale(1.2);
+}
+
+dd{
+  padding-bottom: 20px;
+}
