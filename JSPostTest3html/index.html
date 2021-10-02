@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>      
+
+  </head>
+  <body>
+  <form>
+  <div>    
+      <table style="border-style: solid; border-color: white"; cellpadding="12">
+        <tbody>
+          <tr style="background-color: rgb(28, 133, 89);";><td >BMI Calculator</td><td ></td><td ></td></tr>
+                
+          <tr>
+            <td style="background-color: rgb(28, 133, 89);">Height:</td>
+                
+            <td> Feet:<br>
+            <input type="text" id="feet" name="feet" ></td>
+            <td> Inches:<br>
+            <input type="text" id="inches" name="inches" ></td>
+          </tr>                
+
+          <td style="background-color: rgb(28, 133, 89);">Weight:</td>
+          <td> Pounds:<br>
+          <input type="text" id="weight" name="weight" >                    
+          </td>
+          <td> BMI:<br>
+          <input type="text" id="bmi" name="bmi"  disabled="disabled">    
+          </td>
+
+          <tr><td style="text-align: center;" colspan="5">
+          <input type="button" value="Calculate Body Mass Index" onclick="calculateBMI()">
+          
+          </td>
+          </tr>             
+          <tr><td style="text-align: center;" colspan="5" >
+            
+              <div id="output">BMI = (weight / height in inches * height in inches) * 703</div>
+                           
+          </td></tr>
+        </tbody>                  
+      </table><br>
+
+      <table style="border-style: solid; border-color: white"; cellpadding="12">
+      <tbody><tr>
+        <td style="background-color:  rgb(28, 133, 89);">BMI</td>
+        <td style="background-color:  rgb(28, 133, 89);">Weight Status</td>
+        </tr>
+        <tr>
+          <td>Below 18.5</td>
+          <td>Underweight</td>
+        </tr>
+        <tr>
+          <td>18.5 - 24.9</td>
+          <td>Normal or Healthy Weight</td>
+        </tr>
+        <tr>
+          <td>25.0 - 29.9</td>
+          <td>Overweight</td>
+        </tr>
+        <tr>
+          <td>30.0 and above</td>
+          <td>Obese</td>
+        </tr>
+
+      </tbody>
+      </table>        
+  </div>
+  </form>
+  </body>
+</html>
